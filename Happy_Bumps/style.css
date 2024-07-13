@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    background: #f5f1f4;
+    text-align: center;
+}
+.menu{
+
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+
+
+   
+}
+.links {
+    display: inline;
+    padding-left: 0px;
+    padding-right: 35px;
+    font-family: "Francois One", sans-serif;;
+    font-size: 25px;
+    font-style: normal;
+  
+   
+   
+    
+}
+.links:hover{
+color:#86117c ;
+text-decoration: none;
+}
+
+
+.logo{
+    top:0px;
+    
+}
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: top;
+}
+#home{
+    position: absolute;
+
+    background: linear-gradient(#f9a6f0 20%, #450240 100%);
+    display:table;
+    width: 100%;
+    height: 25%;
+}
+
+.profile {
+    border-radius: 0%;
+    width:40%;
+    height:30%;
+  
+    padding-left:25px;
+   padding-top: 50px;
+    padding-right: 20px;
+   padding-bottom: 70px;
+   
+    float:right;
+    
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color:rgb(108, 5, 99);
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+h2{
+    color:rgb(108, 5, 99);
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:800px;
+  font-size: 35px;
+  font-style: normal;
+  
+}
+h4{
+    color:rgb(7, 248, 244);
+    text-align:center;
+    font-weight: 300;
+    font-size: 22px;
+    font-family: "Dancing Script", cursive;
+
+}
+p{
+    color:rgb(7, 248, 244);
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+}
+#myCarousel
+{
+    background-color: #f9a6f0;
+}
+
+#myCarousel img
+{
+    height: 600px;
+    width: 1000px;
+    margin-top: 35px;
+}
+#about{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 700px;
+
+}
+#abt{
+    text-align: justify;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    color:#86117c;
+    
+}
+
+.profile1 {
+    border-radius: 0%;
+    width:50%;
+   
+    padding-left:50px;
+    float:center;
+    
+
+}
+.ganga{
+    
+    background: linear-gradient(#d99ed2 0%, #f078e8 100%);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    
+    
+}
+h3{
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 35px;
+    word-spacing: 5px;
+   color:#6a0463 ;
+   float:left;
+ 
+  
+   
+}
+.cour{
+    background-image: url("certy.png.png");
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.text,.modal-title{
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif;
+    color:#6a0463;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      background-color:#cdf1b8;;
+      font-family: "Playfair Display", serif;
+      color:#6a0463;
+      font-size: 18px;
+     
+}
+.mod{
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: left;
+    background-color:#cdf1b8;
+      font-family: "Playfair Display", serif;
+      color:#6a0463;
+      font-size: 18px;
+}
+.modal-body
+{
+    text-align: centre;
+}
+.lact
+{
+  cursor: pointer;
+}
+
+.lact hr
+{
+  margin-bottom: 10px;
+}
+
+  #co {
+    transition: transform.2s;
+   
+    }
+    
+    #co:hover {
+        transform: scale(0.85);
+    }
+  
